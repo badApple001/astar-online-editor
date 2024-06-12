@@ -56,6 +56,7 @@ module astar {
             }
             return [cx, cy];
         }
+
         public static PtInHexagon(cx: number, cy: number, px: number, py: number) {
             let pt = HexagonUtils.GetPixelByWorldPoint(cx, cy);
             var absX = Math.abs(px - pt[0]);
